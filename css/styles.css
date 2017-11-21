@@ -14,40 +14,53 @@ body {
 
 @font-face {
   font-family: 'Dameron3d';
-  src: font-url('assets/dameron3d.ttf/');
-  src: local('Dameron3d'), 
-         local('dameron3d'), 
-         url('dameron3d.ttf') format('truetype'),
-         url('assets/dameron3d.woff') format('woff'),
-         url('dameron3d.svg#font') format('svg'); 
+  src: url('/assets/dameron3d.ttf/');
+  font-family: 'Trade Winds', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Trade+Winds');
+
+
 }
 
 ul {
   list-style-type: none;
 }
 
-p {
-	margin-left: 2%;
-}
+
 
 #name {
 	text-align: center;
-	font-family: 'Dameron3d';
+	font-family: 'Bungee Inline', cursive;
+	font-size: 72px;
 }
 
 #tagLine {
 	text-align: center;
 	color: hotpink;
+	font-family: 'Trade Winds', cursive;
+	font-size: 48px;
 }
 
 #special {
 	text-align: center;
 	color: lightgreen;
+	font-family: 'Geostar Fill', cursive;
+	font-size: 22px;
 }
 
 #menu{
 	width:60%;
     float: left;
+}
+
+.spacer{
+	text-align: center;
+	color: hotpink;
+}
+
+p {
+	margin-left: 2%;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 14px;
 }
 
 }
@@ -61,36 +74,55 @@ a:visited {
 }
 
 .content {
-	border: 2px solid white;
+	border: 2px solid hotpink;
 }
 
 .pageTop {
-	border: 2px solid white;
+	border: 2px white;
 	background-color: black;
+	text-align: center;
+	padding: 10px;
 }
 
 .sectionTitle {
 	text-align: center;
+	font-family: 'Stalinist One', cursive;
+	font-size: 30px;
 }
 
 #today {
 	background-color: black;
 }
 
+
 #topMenu {
-	border: 3px solid gray;
+	border: 2px solid purple;
 	text-align: center;
 	transition: .3s linear;
+	background-color: black;
+}
+
+#menu {
+	padding-top: 10px;
 }
 
 .guide{
 	list-style-type: none;
 	display: inline-block;
-	font-size: 32px; 
+	font-family: 'Stalinist One', cursive;
+	font-size: 28px; 
 	padding: 10px 30px;
 }
 
 .google-maps{
+	margin: 10px;
+}
+
+#addy{
+	float:left;
+	width: 45%;
+	font-family: 'Geostar Fill', cursive;
+	color: skyblue;
 	padding: 5px;
 }
 
@@ -100,8 +132,22 @@ a:visited {
     padding: 10px;
 }
 
+.pizzaName{
+	font-family: 'Geostar Fill', cursive;
+	font-size: 22px;
+	color: lightgreen;
+}
+
+.hrs{
+	float: right;
+	width: 49%
+}
+
 .hours{
 	padding: 5px;
+	font-family: 'Geostar Fill', cursive;
+	font-size: 12px;
+	margin-top: 10px;
 }
 .foot{
 	width:38%;
