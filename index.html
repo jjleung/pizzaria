@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BEST PIZZA EVER!</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<header id="intro">
-		<div class="content">
+		<div class="pageTop">
 			<h1 id="name">Pizzaria La DevLeague</h1>
 			<h2 id="tagLine">Functional Pizza for All!</h2>
-			<img src="assets/pizzaMan.jpeg" alt="logo">
+			
 			<nav id="topMenu">
 				<li class="guide">
 					<a href="#today">Today's Special</a>
@@ -25,11 +26,12 @@
 				</li>
 			</nav>
 		</div>
+		<center><img src="assets/futurePizza.gif" alt="logo" width = 97%/></center>
 	</header>
 	<section id="today">
 		<div class="content">
 			<h3 class="sectionTitle">Today's Special</h3>
-			<p id="special">Conditional Love</p>
+			<h4 id="special">Conditional Love</h4>
 		</div>
 	</section>
 	<section id="menu">
@@ -65,6 +67,25 @@
 	<section id="visit">
 		<div class="content">
 			<h3 class="sectionTitle">Visit</h3>
+			<style>
+			    .google-maps {
+			        position: relative;
+			        padding-bottom: 75%; // This is the aspect ratio
+			        height: 0;
+			        overflow: hidden;
+			    }
+			    .google-maps iframe {
+			        position: absolute;
+			        top: 0;
+			        left: 0;
+			        width: 100% !important;
+			        height: 100% !important;
+			    }
+			</style>
+
+			<div class="google-maps">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.054561851309!2d-157.81077108506267!3d21.308860285847327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006d0830002825%3A0xe41b78ff8cd47a7!2sInnovation+Center%2C+2800+Woodlawn+Dr%2C+Honolulu%2C+HI+96822!5e0!3m2!1sen!2sus!4v1511231116208" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
 			<ul id="addy">
 				<li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
 				<li id="map">
@@ -77,9 +98,11 @@
 		</div>
 	</section>
 	<footer>
-		<div class="content">
-			<p id="credit">Site Design and Development by Jesse Leung</p>
-			<p id="copyright">&copy 2017 Gin Drinkers Association (GDA)</p>
+		<div class="foot">
+			<div class="content">
+				<p id="credit">Site Design and Development by Jesse Leung</p>
+				<p id="copyright">&copy 2017 Gin Drinkers Association (GDA)</p>
+			</div>
 		</div>
 	</footer>
 </body>

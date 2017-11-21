@@ -1,0 +1,119 @@
+body {
+	background-image: url("https://steamuserimages-a.akamaihd.net/ugc/146759880552656387/6D2A4999A35B58D7DAD59CD48387271E53D14A26/");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+  	color: white;
+
+}
+
+@font-face {
+  font-family: 'Dameron3d';
+  src: font-url('assets/dameron3d.ttf/');
+  src: local('Dameron3d'), 
+         local('dameron3d'), 
+         url('dameron3d.ttf') format('truetype'),
+         url('assets/dameron3d.woff') format('woff'),
+         url('dameron3d.svg#font') format('svg'); 
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+	margin-left: 2%;
+}
+
+#name {
+	text-align: center;
+	font-family: 'Dameron3d';
+}
+
+#tagLine {
+	text-align: center;
+	color: hotpink;
+}
+
+#special {
+	text-align: center;
+	color: lightgreen;
+}
+
+#menu{
+	width:60%;
+    float: left;
+}
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.content {
+	border: 2px solid white;
+}
+
+.pageTop {
+	border: 2px solid white;
+	background-color: black;
+}
+
+.sectionTitle {
+	text-align: center;
+}
+
+#today {
+	background-color: black;
+}
+
+#topMenu {
+	border: 3px solid gray;
+	text-align: center;
+	transition: .3s linear;
+}
+
+.guide{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 32px; 
+	padding: 10px 30px;
+}
+
+.google-maps{
+	padding: 5px;
+}
+
+#visit{
+	width:38%;
+    float: right;
+    padding: 10px;
+}
+
+.hours{
+	padding: 5px;
+}
+.foot{
+	width:38%;
+    float: right;
+    padding: 10px;
+	background-color: black;
+}
+
+#credit{
+	margin: 5px;
+}
+
+#copyright{
+	margin: 5px;
+}
