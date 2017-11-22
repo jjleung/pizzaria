@@ -13,13 +13,21 @@ body {
 }
 
 @font-face {
-  font-family: 'Dameron3d';
+  /*font-family: 'Dameron3d';
   src: url('/assets/dameron3d.ttf/');
   font-family: 'Trade Winds', cursive;
-  src: url('https://fonts.googleapis.com/css?family=Trade+Winds');
+  src: url('https://fonts.googleapis.com/css?family=Trade+Winds');*/
 
+  /*font-family: 'Dameron3d';
+  src: url('file:<path>assets/dameron3d.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;*/
 
+  /*font-family: 'Dameron3d';
+  src: url('<absolutePath>/dameron3d.ttf') format('truetype');*/
 }
+
+
 
 ul {
   list-style-type: none;
@@ -30,21 +38,29 @@ ul {
 #name {
 	text-align: center;
 	font-family: 'Bungee Inline', cursive;
+	/*font-family: 'Dameron3d';*/
 	font-size: 72px;
 }
 
 #tagLine {
 	text-align: center;
 	color: hotpink;
-	font-family: 'Trade Winds', cursive;
+	/*font-family: 'Trade Winds', cursive;*/
+	font-family: 'Sedgwick Ave Display', cursive;
 	font-size: 48px;
 }
 
 #special {
 	text-align: center;
-	color: lightgreen;
-	font-family: 'Geostar Fill', cursive;
-	font-size: 22px;
+	color: blue;
+	/*font-family: 'Geostar Fill', cursive;*/
+	font-family: 'Audiowide', cursive;
+	font-size: 28px;
+	transition: all .2s ease-in-out;
+}
+
+#special:hover{
+	transform: scale(1.15);
 }
 
 #menu{
@@ -63,43 +79,75 @@ p {
 	font-size: 14px;
 }
 
-}
-
-a {
-	text-decoration: none;
-}
-
-a:visited {
-	color: inherit;
+p span {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .7);
 }
 
 .content {
 	border: 2px solid hotpink;
 }
 
+a {
+	text-decoration: none;
+	transition: all 0.3s ease;
+	color: midnightblue;
+
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: maroon;
+	transform: scale(.95);
+}
+
+a:visited {
+	text-decoration: none;
+}
+
 .pageTop {
 	border: 2px white;
-	background-color: black;
+	/*background-image: url(/assets/warpgif.gif);*/
+	/*background-image: url(/assets/warp2.gif);*/
+	background-image: url(/assets/warp3.gif);
+
+	background-size: cover;
+    background-repeat: no-repeat;
+
+    /*background-position: center center;*/
+    /*background-position: top center;*/
+    background-position: bottom center; 
+
+	width: 100%
 	text-align: center;
 	padding: 10px;
+	line-height: 90%
 }
 
 .sectionTitle {
 	text-align: center;
 	font-family: 'Stalinist One', cursive;
-	font-size: 30px;
+	font-size: 34px;
 }
 
 #today {
-	background-color: black;
+	background-image: url(/assets/cypunk1.gif);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+	line-height: 95%
 }
 
 
 #topMenu {
-	border: 2px solid purple;
+	border: 1px solid black;
 	text-align: center;
 	transition: .3s linear;
-	background-color: black;
+	background-image: url(/assets/chromebar.jpg);
+	color: midnightblue;
 }
 
 #menu {
@@ -110,49 +158,136 @@ a:visited {
 	list-style-type: none;
 	display: inline-block;
 	font-family: 'Stalinist One', cursive;
+	color: midnightblue;
 	font-size: 28px; 
 	padding: 10px 30px;
+	border: 1px solid black;
+	background-image: url(/assets/chromebar.jpg);
 }
 
 .google-maps{
 	margin: 10px;
+	border: 2px solid hotpink;
 }
 
 #addy{
 	float:left;
 	width: 45%;
-	font-family: 'Geostar Fill', cursive;
+	font-family: 'Nova Mono', monospace;
 	color: skyblue;
 	padding: 5px;
+	font-size: 20px;
+}
+
+#street {
+	transition: all .2s ease-in-out;
+}
+
+#street span {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .7);
+}
+
+#street:hover {
+	transform: scale(1.08);
+}
+
+#map {
+	transition: all .2s ease-in-out;
+}
+
+#map span {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .7);
+}
+
+#map:hover {
+	transform: scale(1.08);
 }
 
 #visit{
 	width:38%;
     float: right;
-    padding: 10px;
+    margin: 10px;
+    background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .7);
+}
+
+#subscribe{
+	width:38%;
+    float: right;
+    margin: 10px;
+    background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .7);
+}
+
+#addyHours{
+	width:38%;
+    float: right;
+    margin-left: : 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pizza { 
+	transition: all .2s ease-in-out;
+}
+
+.pizza:hover { 
+	transform: scale(1.045);
 }
 
 .pizzaName{
-	font-family: 'Geostar Fill', cursive;
+	/*font-family: 'Geostar Fill', cursive;*/
+	font-family: 'Audiowide', cursive;
 	font-size: 22px;
 	color: lightgreen;
 }
+
 
 .hrs{
 	float: right;
 	width: 49%
 }
 
-.hours{
-	padding: 5px;
-	font-family: 'Geostar Fill', cursive;
-	font-size: 12px;
-	margin-top: 10px;
+#subscribe{
+	color: dodgerblue;
 }
+
+#deal{
+	color: lightgreen;
+}
+
+input {
+	margin-bottom: 15px;
+	font-family: 'Geostar Fill', cursive;
+	background-color: hotpink;
+	color: white;
+}
+
+.hours{
+	list-style-type: none;
+	padding: 5px;
+	font-family: 'Nova Mono', monospace;
+	font-size: 18px;
+	margin-top: 10px;
+	transition: all .2s ease-in-out;
+}
+
+.hours span{
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .7);
+}
+
+.hours:hover {
+	transform: scale(1.08);
+}
+
 .foot{
 	width:38%;
     float: right;
-    padding: 10px;
+    margin: 10px;
 	background-color: black;
 }
 
