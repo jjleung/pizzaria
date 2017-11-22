@@ -40,6 +40,7 @@ ul {
 	font-family: 'Bungee Inline', cursive;
 	/*font-family: 'Dameron3d';*/
 	font-size: 72px;
+	color: azure;
 }
 
 #tagLine {
@@ -131,6 +132,7 @@ a:visited {
 	text-align: center;
 	font-family: 'Stalinist One', cursive;
 	font-size: 34px;
+	color: whitesmoke;
 }
 
 #today {
@@ -232,10 +234,12 @@ a:visited {
 
 .pizza { 
 	transition: all .2s ease-in-out;
+	color: azure;
 }
 
 .pizza:hover { 
 	transform: scale(1.045);
+	color: white;
 }
 
 .pizzaName{
@@ -257,6 +261,53 @@ a:visited {
 
 #deal{
 	color: lightgreen;
+	-webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  
+  10% {
+    color: #8e44ad;
+  }
+  
+  20% {
+    color: #1abc9c;
+  }
+  
+  30% {
+    color: #d35400;
+  }
+  
+  40% {
+    color: blue;
+  }
+  
+  50% {
+    color: #34495e;
+  }
+  
+  60% {
+    color: blue;
+  }
+  
+  70% {
+    color: #2980b9;
+  }
+
+  80% {
+    color: #f1c40f;
+  }
+  
+  90% {
+    color: #2980b9;
+  }
+  
+  100% { 
+    color: pink;
+  }
 }
 
 input {
@@ -273,6 +324,7 @@ input {
 	font-size: 18px;
 	margin-top: 10px;
 	transition: all .2s ease-in-out;
+	color: azure;
 }
 
 .hours span{
