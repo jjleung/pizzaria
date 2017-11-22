@@ -13,49 +13,71 @@ body {
 }
 
 @font-face {
-  /*font-family: 'Dameron3d';
-  src: url('/assets/dameron3d.ttf/');
-  font-family: 'Trade Winds', cursive;
-  src: url('https://fonts.googleapis.com/css?family=Trade+Winds');*/
+  /*font-family: 'DameronHalf';
+  src: url('/assets/dameronhalf.ttf');*/
 
-  /*font-family: 'Dameron3d';
-  src: url('file:<path>assets/dameron3d.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;*/
-
-  /*font-family: 'Dameron3d';
-  src: url('<absolutePath>/dameron3d.ttf') format('truetype');*/
+  font-family: 'Dameron3d';
+  src: url('/assets/dameron3d.ttf');
 }
 
+@font-face {
+	font-family: 'FoFBI';
+  	src: url('/assets/Outrun future Bold Italic.otf');
+}
 
+@font-face {
+	font-family: 'FFFFORWA';
+  	src: url('/assets/FFFFORWA.TTF');
+}
+
+@font-face {
+	font-family: 'MainF';
+	src: url('/assets/MAINBRG_.ttf');
+}
+
+@font-face {
+	font-family: 'Bala';
+	src: url('/assets/BalaCynwydNF.ttf');
+}
+
+@font-face {
+	font-family: 'VerV';
+	src: url('/assets/vermin_vibes_1989.ttf');
+}
 
 ul {
   list-style-type: none;
 }
 
+.sectionTitle {
+	text-align: center;
+	font-family: 'Dameron3d';
+	font-size: 50px;
+	color: whitesmoke;
+	line-height: 95%;
+}
 
 
 #name {
 	text-align: center;
-	font-family: 'Bungee Inline', cursive;
-	/*font-family: 'Dameron3d';*/
-	font-size: 72px;
+	font-family: 'Bala';
+	/*font-family: 'VerV';*/
+	font-size: 80px;
 	color: azure;
 }
 
 #tagLine {
 	text-align: center;
 	color: hotpink;
-	/*font-family: 'Trade Winds', cursive;*/
-	font-family: 'Sedgwick Ave Display', cursive;
-	font-size: 48px;
+	font-family: 'FoFBI';
+	font-size: 36px;
+	line-height: 110%;
 }
 
 #special {
 	text-align: center;
 	color: blue;
-	/*font-family: 'Geostar Fill', cursive;*/
-	font-family: 'Audiowide', cursive;
+	font-family: 'FFFFORWA';
 	font-size: 28px;
 	transition: all .2s ease-in-out;
 }
@@ -111,28 +133,15 @@ a:visited {
 
 .pageTop {
 	border: 2px white;
-	/*background-image: url(/assets/warpgif.gif);*/
-	/*background-image: url(/assets/warp2.gif);*/
 	background-image: url(/assets/warp3.gif);
-
 	background-size: cover;
     background-repeat: no-repeat;
-
-    /*background-position: center center;*/
-    /*background-position: top center;*/
     background-position: bottom center; 
 
 	width: 100%
 	text-align: center;
 	padding: 10px;
 	line-height: 90%
-}
-
-.sectionTitle {
-	text-align: center;
-	font-family: 'Stalinist One', cursive;
-	font-size: 34px;
-	color: whitesmoke;
 }
 
 #today {
@@ -175,10 +184,10 @@ a:visited {
 #addy{
 	float:left;
 	width: 45%;
-	font-family: 'Nova Mono', monospace;
 	color: skyblue;
 	padding: 5px;
 	font-size: 20px;
+	margin-right: 5px;
 }
 
 #street {
@@ -230,6 +239,7 @@ a:visited {
     margin-right: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-family: 'MainF';
 }
 
 .pizza { 
@@ -243,16 +253,15 @@ a:visited {
 }
 
 .pizzaName{
-	/*font-family: 'Geostar Fill', cursive;*/
-	font-family: 'Audiowide', cursive;
-	font-size: 22px;
+	font-family: 'FFFFORWA';
+	font-size: 16px;
 	color: lightgreen;
 }
 
 
 .hrs{
-	float: right;
 	width: 49%
+	line-height: 70%;
 }
 
 #subscribe{
@@ -320,7 +329,6 @@ input {
 .hours{
 	list-style-type: none;
 	padding: 5px;
-	font-family: 'Nova Mono', monospace;
 	font-size: 18px;
 	margin-top: 10px;
 	transition: all .2s ease-in-out;
@@ -337,9 +345,10 @@ input {
 }
 
 .foot{
-	width:38%;
-    float: right;
-    margin: 10px;
+	width:60%;
+	height:;
+    float: left;
+    margin-top: 10px;
 	background-color: black;
 }
 
