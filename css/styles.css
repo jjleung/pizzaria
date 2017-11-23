@@ -163,6 +163,8 @@ a:visited {
 
 #menu {
 	padding-top: 10px;
+  	display: flex;
+  	flex-direction: column;
 }
 
 .guide{
@@ -345,8 +347,8 @@ input {
 }
 
 .foot{
-	width:60%;
-	height:;
+	width:99.2%;
+	text-align: center;
     float: left;
     margin-top: 10px;
 	background-color: black;
