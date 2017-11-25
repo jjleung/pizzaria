@@ -1,5 +1,7 @@
 body {
-	background-image: url("https://steamuserimages-a.akamaihd.net/ugc/146759880552656387/6D2A4999A35B58D7DAD59CD48387271E53D14A26/");
+	/*background-image: url('/assets/sunsetStill.png');*/
+	background-image: url('/assets/SunGrid2.png');
+	/*background-image: url('/assets/sunGrid3.jpg');*/
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -165,6 +167,8 @@ a:visited {
 	padding-top: 10px;
   	display: flex;
   	flex-direction: column;
+  	/*max-height: inherit;*/
+  	height: 100%;
 }
 
 .guide{
@@ -334,7 +338,7 @@ input {
 	font-size: 18px;
 	margin-top: 10px;
 	transition: all .2s ease-in-out;
-	color: azure;
+	color: lightgreen;
 }
 
 .hours span{
